@@ -1,4 +1,4 @@
-Stream and batch processing implementation.\ 
+Stream and batch processing implementation.  
 This was created as part of an assignment for the Data Engineering course of the MSc Data Science and Entrepreneurship program.  
 Tools used: Apache Spark, Apache Kafka, MongoDB and ELK Stack.<br> 
 
