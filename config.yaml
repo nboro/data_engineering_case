@@ -1,0 +1,19 @@
+mongo:
+  db_name: airbnb_db
+  property_collection: properties
+  search_summary_collection: search_summaries
+backend:
+  input: data/searches.csv
+  delay:
+    mu: 5
+    std: 0.5
+    min: 0.25
+kafka:
+  search_event_topic: search11
+  search_anomaly_topic: anomaly11
+report:
+  output_image_name: image.jpg
+  email_addr: de16.rbnb@gmail.com
+  pwd: de16de16
+  subject: RBNB Daily Report
+  target_email_addr: mail@gmail.com
